@@ -1,0 +1,15 @@
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\bin\Debug\net6.0\LemonedgeTest.exe
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\bin\Debug\net6.0\LemonedgeTest.deps.json
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\bin\Debug\net6.0\LemonedgeTest.runtimeconfig.json
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\bin\Debug\net6.0\LemonedgeTest.dll
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\bin\Debug\net6.0\LemonedgeTest.pdb
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.csproj.AssemblyReference.cache
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.AssemblyInfoInputs.cache
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.AssemblyInfo.cs
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.csproj.CoreCompileInputs.cache
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.dll
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\refint\LemonedgeTest.dll
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.pdb
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\LemonedgeTest.genruntimeconfig.cache
+C:\Users\Ezoan\Documents\projects\LemonedgeTest\LemonedgeTest\obj\Debug\net6.0\ref\LemonedgeTest.dll
