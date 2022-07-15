@@ -23,8 +23,7 @@ namespace LemonedgeTest.Pieces
         }
 
         public void GenerateMoves()
-        {
-            
+        {   
                 // Bishop movement
                 moves.Add(new List<int> { -1, -1}); //up left
                 moves.Add(new List<int> { -1, 1 }); //up right
