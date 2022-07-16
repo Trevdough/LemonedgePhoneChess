@@ -9,17 +9,13 @@ namespace LemonedgeTest.Pieces
     public class Queen: Piece, IMovement
     {
 
-        public Queen(string name, char[,] keypad, int numberCount)
+        public Queen(string name, char[,] keypad)
         {
             this.name = name;
             this.keypad = keypad;
-            this.validMoves = new Dictionary<char, List<List<int>>>();
-            this.numberCount = numberCount;
             this.moves = new List<List<int>>();
 
             GenerateMoves();
-            GenerateValidMoves();
-            GetCount();
         }
 
 
@@ -48,6 +44,7 @@ namespace LemonedgeTest.Pieces
                 tempList.Add(new List<int> { 0, j }); //right
             }
 
+            // consider making utility class since used 3 places
             for (int k = 0; k < tempList.Count; k++)
             {
                 bool dupe = false;

@@ -9,24 +9,24 @@ namespace LemonedgeTest
 {
     public class PieceFactory
     {
-        public static Piece MakePiece(char[,] keypad, string name, int numberCount)
+        public static Piece MakePiece(char[,] keypad, string name)
         {
             switch (name)
             {
                 case "Pawn":
-                    return new Pawn(name, keypad, numberCount);
+                    return new Pawn(name, keypad);
                 case "Bishop":
-                    return new Bishop(name, keypad, numberCount);
+                    return new Bishop(name, keypad);
                 case "Rook":
-                    return new Rook(name, keypad, numberCount);
+                    return new Rook(name, keypad);
                 case "Knight":
-                    return new Knight(name, keypad, numberCount);
+                    return new Knight(name, keypad);
                 case "King":
-                    return new King(name, keypad, numberCount);
+                    return new King(name, keypad);
                 case "Queen":
-                    return new Queen(name, keypad, numberCount);
+                    return new Queen(name, keypad);
                 default:
-                    return new Pawn(name, keypad, numberCount);
+                    return new Pawn(name, keypad);
             }
         }
         

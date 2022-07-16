@@ -9,23 +9,19 @@ namespace LemonedgeTest.Pieces
     public class Knight: Piece, IMovement
     {
 
-        public Knight(string name, char[,] keypad, int numberCount)
+        public Knight(string name, char[,] keypad)
         {
             this.name = name;
             this.keypad = keypad;
-            this.validMoves = new Dictionary<char, List<List<int>>>();
-            this.numberCount = numberCount;
             this.moves = new List<List<int>>();
 
             GenerateMoves();
-            GenerateValidMoves();
-            GetCount();
         }
 
         public void GenerateMoves()
         {
 
-            // Move in an L shape, so2 in one direction, one in the other
+            // Move in an L shape, so 2 in one direction, one in the other
             moves.Add(new List<int> { -1, -2 }); //Left up
             moves.Add(new List<int> { -2, -1 }); //Up left
             moves.Add(new List<int> { -2,  1 }); //Up right

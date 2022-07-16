@@ -8,17 +8,13 @@ namespace LemonedgeTest.Pieces
 {
     public class Bishop: Piece, IMovement
     {
-        public Bishop(string name, char[,] keypad, int numberCount)
+        public Bishop(string name, char[,] keypad)
         {
             this.name = name;
             this.keypad = keypad;
-            this.validMoves = new Dictionary<char, List<List<int>>>();
-            this.numberCount = numberCount;
             this.moves = new List<List<int>>();
 
             GenerateMoves();
-            GenerateValidMoves();
-            GetCount();
         }
 
         public void GenerateMoves()
